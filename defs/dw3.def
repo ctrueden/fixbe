@@ -1,0 +1,468 @@
+<format name="Dragon Warrior III"
+  type="Savegames" extension="sav" fileLength="8192">
+  <alphabets>
+    <alphabet label="dw3">
+      <chars>&#000;1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ HrSrPrWzFrMrGfSg  tuvwx.- *?????  &apos;&quot;?&quot;&apos;&apos;&apos;?,-.()?!;&apos;??:?????????? ?????ABCDF??</chars>
+    </alphabet>
+  </alphabets>
+  <codes>
+    <code label="gender-class">
+      <entries>
+        <entry  value="0" label="Male Hero"/>
+        <entry  value="1" label="Male Wizard"/>
+        <entry  value="2" label="Male Pilgrim"/>
+        <entry  value="3" label="Male Sage"/>
+        <entry  value="4" label="Male Soldier"/>
+        <entry  value="5" label="Male Merchant"/>
+        <entry  value="6" label="Male Fighter"/>
+        <entry  value="7" label="Male Goof-off"/>
+        <entry  value="8" label="Female Hero"/>
+        <entry  value="9" label="Female Wizard"/>
+        <entry value="10" label="Female Pilgrim"/>
+        <entry value="11" label="Female Sage"/>
+        <entry value="12" label="Female Soldier"/>
+        <entry value="13" label="Female Merchant"/>
+        <entry value="14" label="Female Fighter"/>
+        <entry value="15" label="Female Goof-off"/>
+      </entries>
+    </code>
+    <code label="items">
+      <entries>
+        <entry   value="0" label="  Cypress Stick"/>
+        <entry   value="1" label="  Club"/>
+        <entry   value="2" label="  Copper Sword"/>
+        <entry   value="3" label="  Magic Knife"/>
+        <entry   value="4" label="  Iron Spear"/>
+        <entry   value="5" label="  Battle Axe"/>
+        <entry   value="6" label="  Broad Sword"/>
+        <entry   value="7" label="  Wizard&apos;s Wand"/>
+        <entry   value="8" label="  Poison Needle"/>
+        <entry   value="9" label="  Iron Claw"/>
+        <entry  value="10" label="  Thorn Whip"/>
+        <entry  value="11" label="  Giant Shears"/>
+        <entry  value="12" label="  Chain Sickle"/>
+        <entry  value="13" label="  Thor&apos;s Sword"/>
+        <entry  value="14" label="  Snowblast Sword"/>
+        <entry  value="15" label="  Demon Axe"/>
+        <entry  value="16" label="  Staff of Rain"/>
+        <entry  value="17" label="  Sword of Gaia"/>
+        <entry  value="18" label="  Staff of Reflection"/>
+        <entry  value="19" label="  Sword of Destruction"/>
+        <entry  value="20" label="  Multi-Edge Sword"/>
+        <entry  value="21" label="  Staff of Force"/>
+        <entry  value="22" label="  Sword of Illusion"/>
+        <entry  value="23" label="  Zombie Slasher"/>
+        <entry  value="24" label="  Falcon Sword"/>
+        <entry  value="25" label="  Sledge Hammer"/>
+        <entry  value="26" label="  Thunder Sword"/>
+        <entry  value="27" label="  Staff of Thunder"/>
+        <entry  value="28" label="  Sword of Kings"/>
+        <entry  value="29" label="  Orochi Sword"/>
+        <entry  value="30" label="  Dragon Killer"/>
+        <entry  value="31" label="  Staff of Judgement"/>
+        <entry  value="32" label="  Clothes"/>
+        <entry  value="33" label="  Training Suit"/>
+        <entry  value="34" label="  Leather Armor"/>
+        <entry  value="35" label="  Flashy Clothes"/>
+        <entry  value="36" label="  Half Plate Armor"/>
+        <entry  value="37" label="  Full Plate Armor"/>
+        <entry  value="38" label="  Magic Armor"/>
+        <entry  value="39" label="  Cloak of Evasion"/>
+        <entry  value="40" label="  Armor of Radiance"/>
+        <entry  value="41" label="  Iron Apron"/>
+        <entry  value="42" label="  Animal Suit"/>
+        <entry  value="43" label="  Fighting Suit"/>
+        <entry  value="44" label="  Sacred Robe"/>
+        <entry  value="45" label="  Armor of Hades"/>
+        <entry  value="46" label="  Water Flying Cloth"/>
+        <entry  value="47" label="  Chain Mail"/>
+        <entry  value="48" label="  Wayfarer&apos;s Clothes"/>
+        <entry  value="49" label="  Revealing Swimsuit"/>
+        <entry  value="50" label="  Magic Bikini"/>
+        <entry  value="51" label="  Shell Armor"/>
+        <entry  value="52" label="  Armor of Terrafirma"/>
+        <entry  value="53" label="  Dragon Mail"/>
+        <entry  value="54" label="  Swordedge Armor"/>
+        <entry  value="55" label="  Angel&apos;s Robe"/>
+        <entry  value="56" label="  Leather Shield"/>
+        <entry  value="57" label="  Iron Shield"/>
+        <entry  value="58" label="  Shield of Strength"/>
+        <entry  value="59" label="  Shield of Heroes"/>
+        <entry  value="60" label="  Shield of Sorrow"/>
+        <entry  value="61" label="  Bronze Shield"/>
+        <entry  value="62" label="  Silver Shield"/>
+        <entry  value="63" label="  Golden Crown"/>
+        <entry  value="64" label="  Iron Helmet"/>
+        <entry  value="65" label="  Mysterious Hat"/>
+        <entry  value="66" label="  Unlucky Helmet"/>
+        <entry  value="67" label="  Turban"/>
+        <entry  value="68" label="  Noh Mask"/>
+        <entry  value="69" label="  Leather Helmet"/>
+        <entry  value="70" label="  Iron Mask"/>
+        <entry  value="71" label="  Sacred Amulet"/>
+        <entry  value="72" label="  Ring of Life"/>
+        <entry  value="73" label="  Shoes of Happiness"/>
+        <entry  value="74" label="  Golden Claw"/>
+        <entry  value="75" label="  Meteorite Armband"/>
+        <entry  value="76" label="  Book of Satori"/>
+        <entry  value="77" label="  (blank)"/>
+        <entry  value="78" label="  Wizard&apos;s Ring"/>
+        <entry  value="79" label="  Black Pepper"/>
+        <entry  value="80" label="  Sage&apos;s Stone"/>
+        <entry  value="81" label="  Mirror of Ra"/>
+        <entry  value="82" label="  Vase of Drought"/>
+        <entry  value="83" label="  Lamp of Darkness"/>
+        <entry  value="84" label="  Staff of Change"/>
+        <entry  value="85" label="  Stone of Light"/>
+        <entry  value="86" label="  Invisibility Herb"/>
+        <entry  value="87" label="  Magic Ball"/>
+        <entry  value="88" label="  Thief&apos;s Key"/>
+        <entry  value="89" label="  Magic Key"/>
+        <entry  value="90" label="  Final Key"/>
+        <entry  value="91" label="  Dream Ruby"/>
+        <entry  value="92" label="  Wake Up Powder"/>
+        <entry  value="93" label="  Royal Scroll"/>
+        <entry  value="94" label="  Oricon"/>
+        <entry  value="95" label="  Strength Seed"/>
+        <entry  value="96" label="  Agility Seed"/>
+        <entry  value="97" label="  Vitality Seed"/>
+        <entry  value="98" label="  Luck Seed"/>
+        <entry  value="99" label="  Intelligence Seed"/>
+        <entry value="100" label="  Acorns of Life"/>
+        <entry value="101" label="  Medical Herb"/>
+        <entry value="102" label="  Antidote Herb"/>
+        <entry value="103" label="  Fairy Water"/>
+        <entry value="104" label="  Wing of Wyvern"/>
+        <entry value="105" label="  Leaf of World Tree"/>
+        <entry value="106" label="  (blank)"/>
+        <entry value="107" label="  Locket of Love"/>
+        <entry value="108" label="  Full Moon Herb"/>
+        <entry value="109" label="  Water Blaster"/>
+        <entry value="110" label="  Sailor&apos;s Thigh Bone"/>
+        <entry value="111" label="  Echoing Flute"/>
+        <entry value="112" label="  Fairy Flute"/>
+        <entry value="113" label="  Silver Harp"/>
+        <entry value="114" label="  Sphere of Light"/>
+        <entry value="115" label="  Poison Moth Powder"/>
+        <entry value="116" label="  Spider&apos;s Web"/>
+        <entry value="117" label="  Stones of Sunlight"/>
+        <entry value="118" label="  Rainbow Drop"/>
+        <entry value="119" label="  Silver Orb"/>
+        <entry value="120" label="  Red Orb"/>
+        <entry value="121" label="  Yellow Orb"/>
+        <entry value="122" label="  Purple Orb"/>
+        <entry value="123" label="  Blue Orb"/>
+        <entry value="124" label="  Green Orb"/>
+        <entry value="125" label="  Stick Slime"/>
+        <entry value="126" label="  Black Raven"/>
+        <entry value="127" label="  Sword Horned"/>
+        <entry value="128" label="E Cypress Stick"/>
+        <entry value="129" label="E Club"/>
+        <entry value="130" label="E Copper Sword"/>
+        <entry value="131" label="E Magic Knife"/>
+        <entry value="132" label="E Iron Spear"/>
+        <entry value="133" label="E Battle Axe"/>
+        <entry value="134" label="E Broad Sword"/>
+        <entry value="135" label="E Wizard&apos;s Wand"/>
+        <entry value="136" label="E Poison Needle"/>
+        <entry value="137" label="E Iron Claw"/>
+        <entry value="138" label="E Thorn Whip"/>
+        <entry value="139" label="E Giant Shears"/>
+        <entry value="140" label="E Chain Sickle"/>
+        <entry value="141" label="E Thor&apos;s Sword"/>
+        <entry value="142" label="E Snowblast Sword"/>
+        <entry value="143" label="E Demon Axe"/>
+        <entry value="144" label="E Staff of Rain"/>
+        <entry value="145" label="E Sword of Gaia"/>
+        <entry value="146" label="E Staff of Reflection"/>
+        <entry value="147" label="E Sword of Destruction"/>
+        <entry value="148" label="E Multi-Edge Sword"/>
+        <entry value="149" label="E Staff of Force"/>
+        <entry value="150" label="E Sword of Illusion"/>
+        <entry value="151" label="E Zombie Slasher"/>
+        <entry value="152" label="E Falcon Sword"/>
+        <entry value="153" label="E Sledge Hammer"/>
+        <entry value="154" label="E Thunder Sword"/>
+        <entry value="155" label="E Staff of Thunder"/>
+        <entry value="156" label="E Sword of Kings"/>
+        <entry value="157" label="E Orochi Sword"/>
+        <entry value="158" label="E Dragon Killer"/>
+        <entry value="159" label="E Staff of Judgement"/>
+        <entry value="160" label="E Clothes"/>
+        <entry value="161" label="E Training Suit"/>
+        <entry value="162" label="E Leather Armor"/>
+        <entry value="163" label="E Flashy Clothes"/>
+        <entry value="164" label="E Half Plate Armor"/>
+        <entry value="165" label="E Full Plate Armor"/>
+        <entry value="166" label="E Magic Armor"/>
+        <entry value="167" label="E Cloak of Evasion"/>
+        <entry value="168" label="E Armor of Radiance"/>
+        <entry value="169" label="E Iron Apron"/>
+        <entry value="170" label="E Animal Suit"/>
+        <entry value="171" label="E Fighting Suit"/>
+        <entry value="172" label="E Sacred Robe"/>
+        <entry value="173" label="E Armor of Hades"/>
+        <entry value="174" label="E Water Flying Cloth"/>
+        <entry value="175" label="E Chain Mail"/>
+        <entry value="176" label="E Wayfarer&apos;s Clothes"/>
+        <entry value="177" label="E Revealing Swimsuit"/>
+        <entry value="178" label="E Magic Bikini"/>
+        <entry value="179" label="E Shell Armor"/>
+        <entry value="180" label="E Armor of Terrafirma"/>
+        <entry value="181" label="E Dragon Mail"/>
+        <entry value="182" label="E Swordedge Armor"/>
+        <entry value="183" label="E Angel&apos;s Robe"/>
+        <entry value="184" label="E Leather Shield"/>
+        <entry value="185" label="E Iron Shield"/>
+        <entry value="186" label="E Shield of Strength"/>
+        <entry value="187" label="E Shield of Heroes"/>
+        <entry value="188" label="E Shield of Sorrow"/>
+        <entry value="189" label="E Bronze Shield"/>
+        <entry value="190" label="E Silver Shield"/>
+        <entry value="191" label="E Golden Crown"/>
+        <entry value="192" label="E Iron Helmet"/>
+        <entry value="193" label="E Mysterious Hat"/>
+        <entry value="194" label="E Unlucky Helmet"/>
+        <entry value="195" label="E Turban"/>
+        <entry value="196" label="E Noh Mask"/>
+        <entry value="197" label="E Leather Helmet"/>
+        <entry value="198" label="E Iron Mask"/>
+        <entry value="199" label="E Sacred Amulet"/>
+        <entry value="200" label="E Ring of Life"/>
+        <entry value="201" label="E Shoes of Happiness"/>
+        <entry value="202" label="E Golden Claw"/>
+        <entry value="203" label="E Meteorite Armband"/>
+        <entry value="204" label="E Book of Satori"/>
+        <entry value="205" label="E (blank)"/>
+        <entry value="206" label="E Wizard&apos;s Ring"/>
+        <entry value="207" label="E Black Pepper"/>
+        <entry value="208" label="E Sage&apos;s Stone"/>
+        <entry value="209" label="E Mirror of Ra"/>
+        <entry value="210" label="E Vase of Drought"/>
+        <entry value="211" label="E Lamp of Darkness"/>
+        <entry value="212" label="E Staff of Change"/>
+        <entry value="213" label="E Stone of Light"/>
+        <entry value="214" label="E Invisibility Herb"/>
+        <entry value="215" label="E Magic Ball"/>
+        <entry value="216" label="E Thief&apos;s Key"/>
+        <entry value="217" label="E Magic Key"/>
+        <entry value="218" label="E Final Key"/>
+        <entry value="219" label="E Dream Ruby"/>
+        <entry value="220" label="E Wake Up Powder"/>
+        <entry value="221" label="E Royal Scroll"/>
+        <entry value="222" label="E Oricon"/>
+        <entry value="223" label="E Strength Seed"/>
+        <entry value="224" label="E Agility Seed"/>
+        <entry value="225" label="E Vitality Seed"/>
+        <entry value="226" label="E Luck Seed"/>
+        <entry value="227" label="E Intelligence Seed"/>
+        <entry value="228" label="E Acorns of Life"/>
+        <entry value="229" label="E Medical Herb"/>
+        <entry value="230" label="E Antidote Herb"/>
+        <entry value="231" label="E Fairy Water"/>
+        <entry value="232" label="E Wing of Wyvern"/>
+        <entry value="233" label="E Leaf of World Tree"/>
+        <entry value="234" label="E (blank)"/>
+        <entry value="235" label="E Locket of Love"/>
+        <entry value="236" label="E Full Moon Herb"/>
+        <entry value="237" label="E Water Blaster"/>
+        <entry value="238" label="E Sailor&apos;s Thigh Bone"/>
+        <entry value="239" label="E Echoing Flute"/>
+        <entry value="240" label="E Fairy Flute"/>
+        <entry value="241" label="E Silver Harp"/>
+        <entry value="242" label="E Sphere of Light"/>
+        <entry value="243" label="E Poison Moth Powder"/>
+        <entry value="244" label="E Spider&apos;s Web"/>
+        <entry value="245" label="E Stones of Sunlight"/>
+        <entry value="246" label="E Rainbow Drop"/>
+        <entry value="247" label="E Silver Orb"/>
+        <entry value="248" label="E Red Orb"/>
+        <entry value="249" label="E Yellow Orb"/>
+        <entry value="250" label="E Purple Orb"/>
+        <entry value="251" label="E Blue Orb"/>
+        <entry value="252" label="E Green Orb"/>
+        <entry value="253" label="E Stick Slime"/>
+        <entry value="254" label="E Black Raven"/>
+        <entry value="255" label="(nothing)"/>
+      </entries>
+    </code>
+  </codes>
+  <rules>
+    <list label="Character">
+      <repetitions>12</repetitions>
+      <columns>4</columns>
+      <items>
+        <list label="Statistics">
+          <items>
+            <text    offset="490" bytes="8" spacing="8" label="Name">
+              <alphabet reference="/format/alphabets/alphabet"/>
+              <bytesPerChar>1</bytesPerChar>
+            </text>
+            <choice  offset="286" bytes="1" spacing="1" label="Gender/Class">
+              <code reference="/format/codes/code"/>
+            </choice>
+            <integer offset="226" bytes="1" spacing="1" label="Strength"/>
+            <integer offset="238" bytes="1" spacing="1" label="Agility"/>
+            <integer offset="274" bytes="1" spacing="1" label="Vitality"/>
+            <integer offset="250" bytes="1" spacing="1" label="Intelligence"/>
+            <integer offset="262" bytes="1" spacing="1" label="Luck"/>
+            <integer offset="418" bytes="3" spacing="3" label="Experience"/>
+            <integer offset="214" bytes="1" spacing="1" label="Level"/>
+            <integer offset="298" bytes="2" spacing="2" label="HP"/>
+            <integer offset="322" bytes="2" spacing="2" label="Maximum HP"/>
+            <integer offset="346" bytes="2" spacing="2" label="MP"/>
+            <integer offset="370" bytes="2" spacing="2" label="Maximum MP"/>
+          </items>
+        </list>
+
+        <list label="Items">
+          <items>
+            <choice  offset="586" bytes="1" spacing="8" label="Item 1">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+            <choice  offset="587" bytes="1" spacing="8" label="Item 2">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+            <choice  offset="588" bytes="1" spacing="8" label="Item 3">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+            <choice  offset="589" bytes="1" spacing="8" label="Item 4">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+            <choice  offset="590" bytes="1" spacing="8" label="Item 5">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+            <choice  offset="591" bytes="1" spacing="8" label="Item 6">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+            <choice  offset="592" bytes="1" spacing="8" label="Item 7">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+            <choice  offset="593" bytes="1" spacing="8" label="Item 8">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+          </items>
+        </list>
+
+        <list label="Wizard Battle Magic">
+          <columns>2</columns>
+          <items>
+            <toggle offset="682" bit="0" spacing="8" label="Blaze"/>
+            <toggle offset="682" bit="1" spacing="8" label="Upper"/>
+            <toggle offset="682" bit="2" spacing="8" label="IceBolt"/>
+            <toggle offset="682" bit="3" spacing="8" label="Increase"/>
+            <toggle offset="682" bit="4" spacing="8" label="Firebal"/>
+            <toggle offset="682" bit="5" spacing="8" label="Return"/>
+            <toggle offset="682" bit="6" spacing="8" label="Bang"/>
+            <toggle offset="682" bit="7" spacing="8" label="Slow"/>
+            <toggle offset="683" bit="0" spacing="8" label="Blazemore"/>
+            <toggle offset="683" bit="1" spacing="8" label="RobMagic"/>
+            <toggle offset="683" bit="2" spacing="8" label="Snowblast"/>
+            <toggle offset="683" bit="3" spacing="8" label="(battle12)"/>
+            <toggle offset="683" bit="4" spacing="8" label="Firebane"/>
+            <toggle offset="683" bit="5" spacing="8" label="Bikill"/>
+            <toggle offset="683" bit="6" spacing="8" label="Boom"/>
+            <toggle offset="683" bit="7" spacing="8" label="Bounce"/>
+            <toggle offset="684" bit="0" spacing="8" label="(battle17)"/>
+            <toggle offset="684" bit="1" spacing="8" label="Chaos"/>
+            <toggle offset="684" bit="2" spacing="8" label="Snowstorm"/>
+            <toggle offset="684" bit="3" spacing="8" label="(battle20)"/>
+            <toggle offset="684" bit="4" spacing="8" label="Firevolt"/>
+            <toggle offset="684" bit="5" spacing="8" label="(battle22)"/>
+            <toggle offset="684" bit="6" spacing="8" label="(battle23)"/>
+            <toggle offset="684" bit="7" spacing="8" label="(battle24)"/>
+          </items>
+        </list>
+        <list label="Wizard Command Magic">
+          <columns>2</columns>
+          <items>
+            <toggle offset="685" bit="0" spacing="8" label="Outside"/>
+            <toggle offset="685" bit="1" spacing="8" label="Return"/>
+            <toggle offset="685" bit="2" spacing="8" label="X-Ray"/>
+            <toggle offset="685" bit="3" spacing="8" label="StepGuard"/>
+            <toggle offset="685" bit="4" spacing="8" label="Day-Night"/>
+            <toggle offset="685" bit="5" spacing="8" label="CurseOff"/>
+            <toggle offset="685" bit="6" spacing="8" label="(command7)"/>
+            <toggle offset="685" bit="7" spacing="8" label="(command8)"/>
+          </items>
+        </list>
+        <list label="Pilgrim Battle Magic">
+          <columns>2</columns>
+          <items>
+            <toggle offset="686" bit="0" spacing="8" label="Sap"/>
+            <toggle offset="686" bit="1" spacing="8" label="Heal"/>
+            <toggle offset="686" bit="2" spacing="8" label="Expel"/>
+            <toggle offset="686" bit="3" spacing="8" label="Antidote"/>
+            <toggle offset="686" bit="4" spacing="8" label="Infernos"/>
+            <toggle offset="686" bit="5" spacing="8" label="SpeedUP"/>
+            <toggle offset="686" bit="6" spacing="8" label="Surround"/>
+            <toggle offset="686" bit="7" spacing="8" label="Sleep"/>
+            <toggle offset="687" bit="0" spacing="8" label="Defence"/>
+            <toggle offset="687" bit="1" spacing="8" label="Healmore"/>
+            <toggle offset="687" bit="2" spacing="8" label="Beat"/>
+            <toggle offset="687" bit="3" spacing="8" label="NumbOff"/>
+            <toggle offset="687" bit="4" spacing="8" label="Infermore"/>
+            <toggle offset="687" bit="5" spacing="8" label="StopSpell"/>
+            <toggle offset="687" bit="6" spacing="8" label="Limbo"/>
+            <toggle offset="687" bit="7" spacing="8" label="Awake"/>
+            <toggle offset="688" bit="0" spacing="8" label="(battle17)"/>
+            <toggle offset="688" bit="1" spacing="8" label="(battle18)"/>
+            <toggle offset="688" bit="2" spacing="8" label="Defeat"/>
+            <toggle offset="688" bit="3" spacing="8" label="(battle20)"/>
+            <toggle offset="688" bit="4" spacing="8" label="(battle21)"/>
+            <toggle offset="688" bit="5" spacing="8" label="Vivify"/>
+            <toggle offset="688" bit="6" spacing="8" label="(battle23)"/>
+            <toggle offset="688" bit="7" spacing="8" label="(battle24)"/>
+          </items>
+        </list>
+        <list label="Pilgrim Command Magic">
+          <columns>2</columns>
+          <items>
+            <toggle offset="689" bit="0" spacing="8" label="Heal"/>
+            <toggle offset="689" bit="1" spacing="8" label="Antidote"/>
+            <toggle offset="689" bit="2" spacing="8" label="Healmore"/>
+            <toggle offset="689" bit="3" spacing="8" label="NumbOff"/>
+            <toggle offset="689" bit="4" spacing="8" label="Vivify"/>
+            <toggle offset="689" bit="5" spacing="8" label="(command6)"/>
+            <toggle offset="689" bit="6" spacing="8" label="(command7)"/>
+            <toggle offset="689" bit="7" spacing="8" label="(command8)"/>
+          </items>
+        </list>
+
+        <list label="Experimental">
+          <items>
+            <integer offset="310" bytes="1" spacing="1" label="?310?"/>
+            <integer offset="334" bytes="1" spacing="1" label="?334?"/>
+            <integer offset="358" bytes="1" spacing="1" label="?358?"/>
+            <integer offset="382" bytes="1" spacing="1" label="?382?"/>
+            <integer offset="394" bytes="1" spacing="1" label="?394?"/>
+            <integer offset="406" bytes="1" spacing="1" label="?406?"/>
+          </items>
+        </list>
+
+      </items>
+    </list>
+
+    <list label="Gold &amp; Items">
+      <items>
+        <list>
+          <columns>3</columns>
+          <items>
+            <integer offset="778" bytes="3" label="Gold"/>
+            <integer offset="141" bytes="1" label="Vault Gold (in K)?"/>
+            <integer offset="927" bytes="1" label="Vault Gold (in K)?"/>
+          </items>
+        </list>
+        <integer offset="1001" bytes="2" label="Checksum"/>
+        <list label="Vault Item" spacing="1">
+          <repetitions>128</repetitions>
+          <items>
+            <choice label="Item" offset="799" bytes="1">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+          </items>
+        </list>
+      </items>
+    </list>
+  </rules>
+</format>

@@ -1,0 +1,103 @@
+<format name="Dragon Warrior"
+  type="Savegames" extension="sav" fileLength="8192">
+  <alphabets>
+    <alphabet label="dw">
+      <chars>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ??&apos;??????.,-??!?)(???????????????? </chars>
+    </alphabet>
+  </alphabets>
+  <codes>
+    <code label="items">
+      <entries>
+        <entry  value="0" label="(blank)"/>
+        <entry  value="1" label="Torch"/>
+        <entry  value="2" label="Fairy Water"/>
+        <entry  value="3" label="Wings"/>
+        <entry  value="4" label="Dragon&apos;s Scale"/>
+        <entry  value="5" label="Fairy Flute"/>
+        <entry  value="6" label="Fighter&apos;s Ring"/>
+        <entry  value="7" label="Erdrick&apos;s Token"/>
+        <entry  value="8" label="Gwaelin&apos;s Love"/>
+        <entry  value="9" label="Cursed Belt"/>
+        <entry value="10" label="Silver Harp"/>
+        <entry value="11" label="Death Necklace"/>
+        <entry value="12" label="Stones of Sunlight"/>
+        <entry value="13" label="Staff of Rain"/>
+        <entry value="14" label="Rainbow Drop"/>
+      </entries>
+    </code>
+    <code label="message-speed">
+      <entries>
+        <entry value="0" label="Fast"/>
+        <entry value="1" label="Normal"/>
+        <entry value="2" label="Slow"/>
+      </entries>
+    </code>
+  </codes>
+  <rules>
+    <list label="Save Slot" offset="104" spacing="320">
+      <repetitions>3</repetitions>
+      <columns>3</columns>
+      <items>
+
+        <list label="Hero">
+          <items>
+            <text offset="14" bytes="8" label="Name">
+              <alphabet reference="/format/alphabets/alphabet"/>
+              <bytesPerChar>1</bytesPerChar>
+            </text>
+
+            <choice offset="22" bytes="1" label="Message Speed">
+              <code reference="/format/codes/code[2]"/>
+            </choice>
+
+            <integer offset="23" bytes="1" label="Hero&apos;s HP"/>
+            <integer offset="24" bytes="1" label="Hero&apos;s MP"/>
+
+            <integer offset="0" bytes="2" label="Experience"/>
+            <integer offset="2" bytes="2" label="Gold"/>
+          </items>
+        </list>
+
+        <list label="Items">
+          <items>
+            <choice  offset="4" bytes="1" label="Item 1">
+              <code reference="/format/codes/code"/>
+            </choice>
+            <choice  offset="5" bytes="1" label="Item 3">
+              <code reference="/format/codes/code"/>
+            </choice>
+            <choice  offset="6" bytes="1" label="Item 5">
+              <code reference="/format/codes/code"/>
+            </choice>
+            <choice  offset="7" bytes="1" label="Item 7">
+              <code reference="/format/codes/code"/>
+            </choice>
+            <integer offset="8" bytes="1" label="Keys"/>
+            <integer offset="9" bytes="1" label="Herbs"/>
+          </items>
+        </list>
+
+        <list label="Quest">
+          <items>
+            <toggle offset="11" bit="2" label="Charlock Hidden Stairs Revealed"/>
+            <toggle offset="11" bit="3" label="Rainbow Bridge Built"/>
+            <toggle offset="11" bit="4" label="Wearing Dragon&apos;s Scale"/>
+            <toggle offset="11" bit="5" label="Wearing Fighter&apos;s Ring"/>
+            <toggle offset="11" bit="6" label="Wearing Cursed Belt"/>
+            <toggle offset="11" bit="7" label="Wearing Death Necklace"/>
+
+            <toggle offset="12" bit="0" label="Gwaelin Rescued (in Hero&apos;s arms)"/>
+            <toggle offset="12" bit="1" label="Gwaelin on Throne"/>
+            <toggle offset="12" bit="3" label="Started Quest"/>
+
+            <toggle offset="13" bit="1" label="Golem Killed"/>
+            <toggle offset="13" bit="2" label="Dragonlord Killed"/>
+            <toggle offset="13" bit="6" label="Green Dragon Guarding Princess Gwaelin Killed"/>
+          </items>
+        </list>
+
+        <!--<integer offset="30" bytes="2" label="Checksum"/>-->
+      </items>
+    </list>
+  </rules>
+</format>

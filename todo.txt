@@ -1,0 +1,19 @@
+Fixed-structure Binary Editor (FixBE)
+
+TODO
+
+Some metadata at top
+-magic bytes to check?
+
+values not on a byte boundary
+-7-bit values (gear)
+-single-bit value checkboxes (equip flag)
+-e.g., how to do equippable gear?
+
+label list items with first constituent value, unless blank
+
+checksums
+
+duplicated blocks of data
+
+nested repeated lists

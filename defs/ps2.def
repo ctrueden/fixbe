@@ -1,0 +1,51 @@
+<format name="Phantasy Star 2"
+  type="Savegames" extension="gsv" fileLength="16383">
+  <alphabets>
+    <alphabet label="ps2">
+      <chars>&#000;??????????ABCDEFGHIJKLMNOPQRSTUVWXYZ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? </chars>
+    </alphabet>
+  </alphabets>
+  <codes>
+    <code label="character-names">
+      <entries>
+        <entry  value="0" label="Rolf"/>
+        <entry  value="1" label="Nei"/>
+        <entry  value="2" label="Rudo"/>
+        <entry  value="3" label="Amy"/>
+        <entry  value="4" label="Hugh"/>
+        <entry  value="5" label="Anna"/>
+        <entry  value="6" label="Kain"/>
+        <entry  value="7" label="Shir"/>
+      </entries>
+    </code>
+  </codes>
+  <rules>
+<!--
+    <list label="Save Slot" spacing="2048">
+      <repetitions>4</repetitions>
+      <items>
+-->
+        <text offset="1656" bytes="8" label="Save title">
+          <alphabet reference="/format/alphabets/alphabet"/>
+          <bytesPerChar>2</bytesPerChar>
+        </text>
+        <list label="Character" spacing="80">
+          <repetitions>8</repetitions>
+          <items>
+            <text    offset="1728" bytes="8" spacing="8" label="Name">
+              <alphabet reference="/format/alphabets/alphabet"/>
+              <bytesPerChar>2</bytesPerChar>
+            </text>
+            <integer offset=  "34" bytes="1" spacing="128" label="Strength"/>
+            <integer offset=  "38" bytes="1" spacing="128" label="Mental"/>
+            <integer offset=  "42" bytes="1" spacing="128" label="Agility"/>
+            <integer offset=  "46" bytes="1" spacing="128" label="Luck"/>
+            <integer offset=  "50" bytes="1" spacing="128" label="Dexterity"/>
+          </items>
+        </list>
+<!--
+      </items>
+    </list>
+-->
+  </rules>
+</format>

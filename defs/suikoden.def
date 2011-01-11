@@ -1,0 +1,124 @@
+<format name="Suikoden"
+  type="Savegames" extension="gme" fileLength="134976">
+  <alphabets>
+    <alphabet label="suikoden">
+      <chars>&#000;??????????????????????????????????????????ABCDEFGHIJKLMNOPQRSTUVWXYZ??????????????????????????????????????????????????????????????????????????????</chars>
+    </alphabet>
+  </alphabets>
+  <codes>
+    <code label="character-names">
+      <entries>
+        <entry  value="0" label="McDohl"/>
+        <entry  value="1" label="Gremio"/>
+        <entry  value="2" label="Pahn"/>
+        <entry  value="3" label="Cleo"/>
+        <entry  value="4" label="Ted"/>
+        <entry  value="5" label="Victor"/>
+        <entry  value="6" label="Odessa"/>
+        <entry  value="7" label="Camille"/>
+        <entry  value="8" label="Tai Ho"/>
+        <entry  value="9" label="Kuromimi"/>
+        <entry value="10" label="Kirkis"/>
+        <entry value="11" label="Valeria"/>
+        <entry value="12" label="Eileen"/>
+        <entry value="13" label="#13"/>
+        <entry value="14" label="Stallion"/>
+        <entry value="15" label="Yam Koo"/>
+        <entry value="16" label="Lepant"/>
+        <entry value="17" label="Krin"/>
+        <entry value="18" label="Juppo"/>
+        <entry value="19" label="19"/>
+        <entry value="20" label="Juppo"/>
+        <entry value="21" label="21"/>
+        <entry value="22" label="22"/>
+        <entry value="23" label="Sheena"/>
+        <entry value="24" label="24"/>
+        <entry value="25" label="Kai"/>
+        <entry value="26" label="Sydonia"/>
+        <entry value="27" label="27"/>
+        <entry value="28" label="Sylvina"/>
+        <entry value="29" label="29"/>
+        <entry value="30" label="30"/>
+        <entry value="31" label="Luc"/>
+        <entry value="32" label="32"/>
+        <entry value="33" label="33"/>
+        <entry value="34" label="34"/>
+        <entry value="35" label="Fu Su Lu"/>
+        <entry value="36" label="36"/>
+        <entry value="37" label="37"/>
+        <entry value="38" label="38"/>
+        <entry value="39" label="39"/>
+        <entry value="40" label="40"/>
+        <entry value="41" label="41"/>
+        <entry value="42" label="42"/>
+        <entry value="43" label="43"/>
+        <entry value="44" label="44"/>
+        <entry value="45" label="Flik"/>
+        <entry value="46" label="46"/>
+        <entry value="47" label="47"/>
+        <entry value="48" label="48"/>
+        <entry value="49" label="49"/>
+        <entry value="50" label="50"/>
+        <entry value="51" label="51"/>
+        <entry value="52" label="52"/>
+        <entry value="53" label="53"/>
+        <entry value="54" label="54"/>
+        <entry value="55" label="55"/>
+        <entry value="56" label="56"/>
+        <entry value="57" label="Hellion"/>
+        <entry value="58" label="58"/>
+        <entry value="59" label="59"/>
+        <entry value="60" label="60"/>
+        <entry value="61" label="Kwanda"/>
+        <entry value="62" label="62"/>
+        <entry value="63" label="63"/>
+        <entry value="64" label="64"/>
+        <entry value="65" label="Maas"/>
+        <entry value="66" label="66"/>
+        <entry value="67" label="67"/>
+        <entry value="68" label="Meese"/>
+        <entry value="69" label="69"/>
+        <entry value="70" label="70"/>
+        <entry value="71" label="71"/>
+        <entry value="72" label="72"/>
+        <entry value="73" label="73"/>
+        <entry value="74" label="Sansuke"/>
+        <entry value="75" label="Sergei"/>
+      </entries>
+    </code>
+  </codes>
+  <rules>
+<!--
+    <list label="Save Slot" spacing="8436">
+      <repetitions>15</repetitions>
+-->
+    <list label="Save Slot" offset="67488"><!-- slot 8 -->
+      <items>
+        <integer offset="2868" bytes="4" label="Gold"/>
+        <text offset="2708" bytes="8" label="Hero Name(?)">
+          <alphabet reference="/format/alphabets/alphabet"/>
+          <bytesPerChar>1</bytesPerChar>
+        </text>
+        <text offset="9868" bytes="8" label="Game Name(?)">
+          <alphabet reference="/format/alphabets/alphabet"/>
+          <bytesPerChar>1</bytesPerChar>
+        </text>
+        <list label="Character" spacing="80">
+          <repetitions>75</repetitions>
+          <items>
+            <integer offset="3504" bytes="2" label="Maximum HP"/>
+            <integer offset="3506" bytes="2" label="Current HP"/>
+            <integer offset="3513" bytes="1" label="Level"/>
+            <integer offset="3514" bytes="2" label="Experience"/>
+            <integer offset="3516" bytes="1" label="Power"/>
+            <integer offset="3517" bytes="1" label="Skill"/>
+            <integer offset="3518" bytes="1" label="Defense"/>
+            <integer offset="3519" bytes="1" label="Speed"/>
+            <integer offset="3520" bytes="1" label="Magic"/>
+            <integer offset="3521" bytes="1" label="Luck"/>
+          </items>
+        </list>
+      </items>
+    </list>
+  </rules>
+</format>
