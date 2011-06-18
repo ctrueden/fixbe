@@ -63,6 +63,7 @@ public class ListWidget extends RuleWidget implements ListSelectionListener {
 		updateWidgets();
 	}
 
+	@Override
 	public void valueChanged(ListSelectionEvent e) {
 		updateWidgets();
 	}

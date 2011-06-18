@@ -23,6 +23,7 @@ public class MenuHandler implements ActionListener {
 		this.editor = editor;
 	}
 
+	@Override
 	public void actionPerformed(ActionEvent e) {
     final String cmd = e.getActionCommand();
     if (cmd.equals(CMD_LOAD_DEF)) editor.loadDef();
