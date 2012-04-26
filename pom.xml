@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>fixbe</name>
-  <url>http://restlesscoder.net/software</url>
+  <url>http://restlesscoder.net/software/fixbe</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
